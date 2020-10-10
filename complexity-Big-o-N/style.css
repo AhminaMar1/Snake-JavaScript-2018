@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.frame{
+    position: absolute;
+    width: 640px;
+    height: 440px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: Moccasin;
+    border: 5px solid #000;
+}
+.partOfSnake{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FF8C00;
+    border-radius: 3px;
+}
+.partHeadOfSnake0{
+    background-color: #f00;	
+}
+.frameSnake{
+    position: relative;
+    border: 1px solid #f00;
+}
+.food{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #0f0;
+}
