@@ -186,25 +186,25 @@ function move() {
 
 }
 //setInterval for function of moving - apply move-function every 70ms
-setInterval(move, 70);
+setInterval(move, 65);
 
 //Event click ArrowLeft/ArrowUp/ArrowRight/ArrowDown "when tap keyboard"
 function clickButton(event) {
 
 
-	if(event.keyCode==37 && dpx==0 && d==0){//right
+	if(event.keyCode==37 && dpx==0 && d==0){//Left
 		dpx=-dp;
 		dpy=0;
 		d=1;
-	}else if(event.keyCode==38 && dpy==0 && d==0){//Up
+	}else if(event.keyCode==38 && dpy==0 && d==0){//Down
 		dpx=0;
 		dpy=-dp;
 		d=2;
-	}else if(event.keyCode==39 && dpx==0 && d==0){//left
+	}else if(event.keyCode==39 && dpx==0 && d==0){//right
 		dpx=dp;
 		dpy=0;
 		d=3;
-	}else if(event.keyCode==40 && dpy==0 && d==0){//Down
+	}else if(event.keyCode==40 && dpy==0 && d==0){//UP
 		dpx=0;
 		dpy=dp;
 		d=4;
